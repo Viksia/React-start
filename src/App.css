@@ -1,38 +1,80 @@
 .App {
-  text-align: center;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  color: #0d6efd;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 2px 2px 0px 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  color: #031633;
+  font-size: 60px;
+  padding-top: 10px;
+}
+h1 img {
+  margin: 0px;
+  margin-right: 5px;
+  float: left;
+  height: 80px;
+  width: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 .units {
+  position: relative;
+  font-size: 18px;
+  top: -30px;
+}
+h1 .active {
+  color: #0d6efd;
+  cursor: default;
+}
+h1 .active:hover {
+  text-decoration: none;
+}
+
+ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: left;
+  flex-wrap: wrap;
+  color: #031633;
+  font-size: 16px;
+  font-weight: 600;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin: 0 5px;
 }
 
-.App-link {
-  color: #61dafb;
+li {
+  display: inline;
+  margin: 0 15px;
+  /*расстояние между пунктами по ширине*/
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
+  color: #031633;
+  /*убираем подчеркивание текста ссылок*/
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  margin: 0 15px;
+}
+
+h4 {
+  color: #031633;
+  font-weight: 700;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 2px 2px 10px 10px;
+}
+small a {
+  text-decoration: underline;
+  font-weight: 500;
 }

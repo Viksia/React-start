@@ -2,17 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import Weather from "./Weather";
+
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div className="Weather">
+    <div className="WeatherApp">
       <App />
-      <Weather city="New York" temperature={18} />
-      <Weather city="Tokyo" temperature={32} />
-      <Weather city="Sydney" temperature={29} />
     </div>
   </React.StrictMode>
 );
